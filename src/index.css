@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Kode+Mono:wght@400;700&family=Ledger&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+.custom-spacemono {
+  font-family: 'Space Mono', monospace;
+}
+
+.custom-sidebar-headline {
+  font-family: 'Kode Mono', monospace;
+  font-size: 18px;
+}
+
+@media (min-width: 640px) {
+  .custom-sidebar-headline {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-sidebar-headline {
+    font-size: 25px;
+  }
+}
+
+.custom-sidebar-p {
+  font-family: Georgia, serif;
+  font-size: 10px;
+}
+
+.custom-nav-span {
+  font-family: 'Ledger', serif;
+  font-size: 12px;
+}
+
+.custom-indicator {
+  font-family: 'Inter', sans-serif;
+}
+
+.custom-headline {
+  font-family: 'Kode Mono', monospace;
+  font-size: 32px;
+}
+
+@media (min-width: 480px) {
+  .custom-headline {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 640px) {
+  .custom-headline {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-headline {
+    font-size: 100px;
+  }
+}
+
+.custom-georgia-text {
+  font-family: Georgia, serif;
+  font-size: 15px;
+}
+
+.custom-georgia-12 {
+  font-family: Georgia, serif;
+  font-size: 12px;
+}
+
+.custom-kodemono-20 {
+  font-family: 'Kode Mono', monospace;
+  font-size: 20px;
+}
+
+.custom-arial-14 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.custom-courier-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.custom-biography-text {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-libertinus-text {
+  font-family: "Libertinus Math", "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+
+.custom-arial-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+/* Subtle Film Grain (Optional / Soft) */
+.grain-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0%200%20200%20200'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter%20id='noiseFilter'%3E%3CfeTurbulence%20type='fractalNoise'%20baseFrequency='0.65'%20numOctaves='3'%20stitchTiles='stitch'/%3E%3C/filter%3E%3Crect%20width='100%25'%20height='100%25'%20filter='url(%23noiseFilter)'%20opacity='0.02'/%3E%3C/svg%3E");
+}
+

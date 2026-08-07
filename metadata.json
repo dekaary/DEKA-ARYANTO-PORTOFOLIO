@@ -1,0 +1,6 @@
+{
+  "name": "Deka Aryanto Portfolio",
+  "description": "Website portofolio sinematik, modern, dan interaktif untuk Deka Aryanto, mahasiswa Produksi Film dan Televisi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
